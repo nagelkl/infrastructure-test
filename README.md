@@ -1,7 +1,7 @@
-infrastructure-test
+Infrastructure Test
 ===================
 
-repo to test the github infrastructure and tools
+Repo for tinkering around wiht the github tools
 
 
 first Test for commit and push

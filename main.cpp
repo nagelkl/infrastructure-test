@@ -5,9 +5,17 @@
 #include <cstdio>
 
 
-
-main (void)
+void printhelper(const char *text)
 {
-   fprintf(stdout, "This is a test for integration of CLioin in GitHub");
+    fprintf(stdout, "%s", text);
 
+}
+
+int main (void)
+{
+    fprintf(stdout, "This is a test for integration of CLioin in GitHub");
+
+    printhelper("This is an additional test for generating a new function \n");
+
+    return 0;
 }
